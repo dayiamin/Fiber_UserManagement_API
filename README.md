@@ -22,10 +22,11 @@ This project demonstrates a clean architecture approach with JWT authentication,
 ```
 Fiber_UserManagement_API/
 │
-├── database/       # DB initialization & connection
-├── middleware/     # Authentication & authorization logic
-├── model/          # GORM models (User struct)
-├── router/         # All routes and endpoints
+├── internal/database/       # DB initialization & connection
+├── internal/user/middleware/     # Authentication & authorization logic
+├── internal/model/          # GORM models (User struct)
+├── internal/user/router/         # All routes and endpoints
+├── docs/            #swager docs
 ├── main.go         # Entry point
 └── go.mod
 ```
